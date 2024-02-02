@@ -1,0 +1,23 @@
+const url={
+    // // login: "/charchar/users/login",
+    // login: "http://localhost:9090/charchar/users/login",
+    // // register: "/charchar/users/registryUser",
+    // register: "http://localhost:9090/charchar/users/registryUser",
+    userInfo: "/charchar/users",
+    // getUserInformation: "/charchar/users/getUserInformation",
+    // updateOneUserInfomation: "/charchar/users/updateOneUserInfomation",
+    // updateUserPassword: "/charchar/users/updateUserPassword",
+    // forgetUserPassword: "/charchar/users/forgetUserPassword",
+    // deleteUser: "/charchar/users/deleteUser",
+    // // activation: "/charchar/users/activation",
+    login: "/charchar/users/login",
+    register: "/charchar/users/registryUser",
+    getUserInformation: "/charchar/users/getUserInformation",
+    updateOneUserInfomation: "/charchar/users/updateOneUserInfomation",
+    updateUserPassword: "/charchar/users/updateUserPassword",
+    forgetUserPassword: "/charchar/users/forgetUserPassword",
+    deleteUser: "/charchar/users/deleteUser",
+    activation: "/charchar/users/activation",
+    sendVerificationCode: "/charchar/users/sendVerificationCode",
+}
+export default url
